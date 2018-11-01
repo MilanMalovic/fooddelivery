@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Pizza</title>
+  </head>
+
+  <body>
+      <header>
+          <h1><i>PIZZA</i></h1>
+          <h3>We care that it's the Best!</h3>
+      </header>
+
+
+
+       <section id="contact-form">
+
+         <h2>Place order</h2>
+
+         <form method="GET" action="place-order.php">
+           <h4>Delivery</h4>
+           <input type="radio" name="deliveryMethod" value="delivery" /> Delivery <br />
+           <input type="radio" name="deliveryMethod" value="pickup" />PickUp <br />
+
+
+           <h4>Adress</h4>
+           <input name="address1" placeholder="Address Line 1" class="lg-input"/><br />
+           <input name="address2" placeholder="Address Line 2" class="lg-input"/> <br />
+
+
+           <input name="city" placeholder="City" class="sm-input" />
+           <input name="state" placeholder="State" class="sm-input" />
+           <input name="zipCode" placeholder="ZipCode" class="sm-input" />
+           <br />
+          <br />
+
+
+          <h4>Size</h4>
+          <select  name="size">
+            <option value="12">12"-$10.99</option>
+            <option value="25">25"-$20.99</option>
+            <option value="50">50"-$33.99</option>
+          </select>
+
+          <h4>Ingredients</h4>
+           <input name="Ingredients" type="checkbox" value="pepperoni" /> Pepperoni <br />
+           <input name="Ingredients" type="checkbox" value="salami" /> Salami <br />
+           <input name="Ingredients" type="checkbox" value="bacon" /> Bacon <br />
+           <input name="Ingredients" type="checkbox" value="sausage" /> Italian Sausage <br />
+           <input name="Ingredients" type="radio" value="onion" /> Onion <br  />
+           <input name="Ingredients" type="radio" value="pappers" /> Green Pappers  <br />
+           </form>
+
+       </section>
+
+
+
+
+
+              <footer>
+
+
+          <center>&copy; 2018  <br />
+            <a href="#"> Terms of services </a>
+
+          </center>
+
+
+       </footer>
+
+
+  </body>
+</html>
