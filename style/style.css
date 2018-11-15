@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i, 900, 900i');
+
+	body{
+		font-family:"Roboto Condensed", sans-serifs;
+		background-image:url("./pizza-space.gif");
+		background-color:#ececd9;
+	}
+	
+	
+	.photobck{
+		margin-right:10px;
+		margin-left:10px;
+	
+	}
+	
+	
+	
+	
